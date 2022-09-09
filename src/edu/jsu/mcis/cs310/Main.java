@@ -16,8 +16,10 @@ public class Main {
         return "Hello, World!";
     }
     
+
     public String reverse(String message) {
-        return message;
+        StringBuilder str = new StringBuilder(message);
+        return str.reverse().toString();
     }
     
 }
